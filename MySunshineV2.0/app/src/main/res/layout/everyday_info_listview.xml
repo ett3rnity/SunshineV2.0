@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rellay_listview">
+
+
+       <ImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:id="@+id/img_info_listview"
+           android:src="@drawable/toolbar_pic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_daystatus_listview"
+            android:hint="day status"
+            android:layout_toRightOf="@id/img_info_listview"
+            android:paddingLeft="8dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_weatherstatus_listview"
+            android:hint="weather status"
+            android:layout_below="@id/tv_daystatus_listview"
+            android:layout_toRightOf="@id/img_info_listview"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_maxtemp_listview"
+            android:hint="max temp"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_mintemp_listview"
+            android:hint="min temp"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="10dp"
+            android:layout_below="@id/tv_maxtemp_listview"
+            android:paddingTop="5dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

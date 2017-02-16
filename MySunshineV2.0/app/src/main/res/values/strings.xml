@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MySunshineV2.0</string>
+    <string name="dialog_location">Location</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="location_fragment_text">Set your city here!</string>
+    <string name="units_fragment_text">Set units here!</string>
+    <string name="metric">metric</string>
+    <string name="imperial">imperial</string>
+    <string name="application_name">the weather vibes</string>
+</resources>
